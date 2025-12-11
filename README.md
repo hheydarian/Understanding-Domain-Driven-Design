@@ -63,12 +63,12 @@
 
 | شماره | نام فصل (انگلیسی) | نام فصل (فارسی) | وضعیت | لینک |
 | :--- | :--- | :--- | :--- | :--- |
-| 01 | DDD Fundamentals | مبانی و مفاهیم اولیه DDD | ✅ | [DDD Fundamentals](Book/01/DDD-Fundamentals/README.md) |
-| 02 | Strategic Design: Subdomains | طراحی استراتژیک: شناخت دامین | ✅ | [Strategic Design: Subdomains](Book/02/Strategic-Design-Subdomains/README.md) |
-| 03 | Bounded Contexts & Relationships | کانتکست‌های کران‌دار و روابط | ✅ | [Bounded Contexts & Relationships](Book/03/Bounded-Contexts-and-Relationships/README.md) |
-| 04 | Domain Discovery & Distillation | کشف و تقطیر دامنه | ✅ | [Domain Discovery & Distillation](Book/04/Domain-Discovery-and-Distillation/README.md) |
-| 05 | Tactical Design & Architecture | طراحی تاکتیکال و معماری فنی | ✅ | [Tactical Design & Architecture](Book/05/Tactical-Design-Architecture/README.md) |
-| 06 | Conclusion & Roadmap | جمع‌بندی و مسیر آینده | ✅ | [Conclusion & Roadmap](Book/06/Conclusion-and-Roadmap/README.md) |
+| 01 | DDD Fundamentals | مبانی و مفاهیم اولیه DDD | ✅ | [DDD Fundamentals](Book/01/DDD-Fundamentals.md) |
+| 02 | Strategic Design: Subdomains | طراحی استراتژیک: شناخت دامین | ✅ | [Strategic Design: Subdomains](Book/02/Strategic-Design-Subdomains.md) |
+| 03 | Bounded Contexts & Relationships | کانتکست‌های کران‌دار و روابط | ✅ | [Bounded Contexts & Relationships](Book/03/Bounded-Contexts-and-Relationships.md) |
+| 04 | Domain Discovery & Distillation | کشف و تقطیر دامنه | ✅ | [Domain Discovery & Distillation](Book/04/Domain-Discovery-and-Distillation.md) |
+| 05 | Tactical Design & Architecture | طراحی تاکتیکال و معماری فنی | ✅ | [Tactical Design & Architecture](Book/05/Tactical-Design-Architecture.md) |
+| 06 | Conclusion & Roadmap | جمع‌بندی و مسیر آینده | ✅ | [Conclusion & Roadmap](Book/06/Conclusion-and-Roadmap.md) |
 
 </div>
 
