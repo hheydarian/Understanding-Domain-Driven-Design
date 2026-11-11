@@ -1,98 +1,110 @@
+<div dir="rtl">
+
 <p align="center">
-  <a href="https://github.com/hheydarian/Understanding-Domain-Driven-Design">
-    <img src="assets/images/Cover.png" alt="Understanding Domain-Driven Design" width="400"/>
+  <a href="https://hheydarian.github.io/Gitab/books/book8/">
+    <img src="assets/images/Cover.png" alt="Understanding Domain-Driven Design Cover" width="380" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.25);"/>
   </a>
 </p>
 
-<h1 align="center">📘 درک عمیق Domain-Driven Design (DDD)</h1>
+<h1 align="center">🚀 راهنمای جامع <span dir="ltr">Understanding Domain-Driven Design (DDD)</span></h1>
 
 <p align="center">
-  <b>راهنمای جامع فارسی برای یادگیری مفاهیم طراحی دامنه-محور، طراحی استراتژیک و تاکتیکال</b>
+  <strong>مقدمه‌ای شفاف و کاربردی بر طراحی دامنه‌محور (DDD)، طراحی استراتژیک، کانتکست‌های محدود و معماری تاکتیکال</strong>
 </p>
 
 <p align="center">
+
   <img src="https://img.shields.io/github/stars/hheydarian/Understanding-Domain-Driven-Design?style=social" alt="GitHub stars">
+
   <img src="https://img.shields.io/github/forks/hheydarian/Understanding-Domain-Driven-Design?color=blueviolet" alt="GitHub forks">
+
   <img src="https://img.shields.io/github/last-commit/hheydarian/Understanding-Domain-Driven-Design?color=9cf" alt="Last Commit">
+
+  <img src="https://img.shields.io/badge/Language-Persian%20%7C%20فارسی-blue" alt="Language">
+
+  <img src="https://img.shields.io/badge/Status-Complete-success" alt="Status">
+
   <img src="https://visitor-badge.laobi.icu/badge?page_id=hheydarian.Understanding-Domain-Driven-Design" alt="Visitors">
+
 </p>
 
-<h1>
+---
+
+## 💡 چرا این پروژه؟
+
+مجموعه آموزشی **Understanding Domain-Driven Design** تألیف *مهدی کاظمی* ([LinkedIn](https://www.linkedin.com/in/mahdi-kazemi-career) | [GitHub](https://github.com/mahdikazemi96))، یکی از دقیق‌ترین منابع فارسی برای درک معماری دامنه‌محور (DDD)، کشف دامنه و طراحی سیستم‌های پیچیده سازمانی است.
+
+هدف ما در این پروژه اوپن‌سورس:
+* 🎯 **ارائه ساختاریافته و خوانا** از مفاهیم طراحی استراتژیک، Bounded Contextها و معماری تاکتیکال
+* 💻 **قالب‌بندی استاندارد کدها و دیاگرام‌ها** در Markdown برای مطالعه سریع در گیت‌هاب و وب
+* 🌍 **سهولت دسترسی و مشارکت جامعه مهندسان نرم‌افزار** با حفظ کامل حقوق معنوی نویسنده
+
+---
 <p align="center">
-   <a href="https://hheydarian.github.io/Gitab/" target="_blank"><strong>  گیتاب — نسخه آنلاین کتاب </strong></a>
+
+  ## ⚡ دسترسی سریع
+
+| مرجع | توضیحات | لینک |
+| :--- | :--- | :---: |
+| 📖 **نسخه وب (گیتاب)** | تجربه خواندن تعاملی با پوسته تاریک/روشن و جستجوی سریع | [ورود به گیتاب ↗](https://hheydarian.github.io/Gitab/books/book8/) |
+| 📥 **فصل‌های کتاب (Markdown)** | مشاهده و مطالعه مستقیم فایل‌های فارسی در پوشه فصل‌ها | [مشاهده پوشه Book ↗](Book/) |
+| 👤 **گیت‌هاب نویسنده اثر** | صفحه گیت‌هاب مهدی کاظمی (مؤلف مقاله مرجع DDD) | [پروفایل مهدی کاظمی ↗](https://github.com/mahdikazemi96) |
+
+---
 </p>
-</h1>
+
+## 🔍 راهنمای خوانایی بهتر در گیت‌هاب
+
+برای اینکه متون فارسی در گیت‌هاب و مرورگر با خط استاندارد و چشم‌نواز نمایش داده شوند:
+1. افزونه رایگان **[فونت ایران (FontIran)](https://chromewebstore.google.com/detail/fontiran/edbchgkbejkdkdkpgenlaciegoidmjoh)** را روی مرورگر نصب کنید.
+2. فونت پیش‌فرض را روی **وزیرمتن (Vazirmatn)** یا **ایران‌یکان** قرار دهید تا خوانایی کدها و متن به اوج برسد.
 
 ---
 
-## ✨ معرفی پروژه
+## 📚 فهرست سرفصل‌ها
 
-این ریپازیتوری شامل نسخه آنلاین و ساختاریافته مقاله ارزشمند **«Understanding Domain-Driven Design»** نوشته‌ی **مهدی کاظمی** است.
-
-این اثر تلاشی است برای ساده‌سازی و انتقال مفاهیم پیچیده **DDD** به جامعه نرم‌افزاری فارسی‌زبان. در این راهنما، شما با اصول طراحی استراتژیک (Strategic Design)، طراحی تاکتیکال (Tactical Design) و تکنیک‌های کشف دامنه (Domain Discovery) آشنا خواهید شد تا بتوانید نرم‌افزارهایی توسعه دهید که دقیقاً منطبق بر نیازهای پیچیده کسب‌و‌کار باشند.
-
-هدف از ایجاد این ریپازیتوری، دسترسی راحت‌تر، خوانایی بهتر و امکان مشارکت جامعه برنامه‌نویسان در بهبود و تکمیل این منبع ارزشمند است. 🚀
-
-👤 **درباره نویسنده مقاله:**
-*   **مهدی کاظمی**
-*   [LinkedIn](https://www.linkedin.com/in/mahdi-kazemi-career) | [GitHub](https://github.com/mahdikazemi96)
-
----
-
-## ⚙️ پیش‌نیاز مطالعه
-
-🔹 این راهنما برای معماران نرم‌افزار، توسعه‌دهندگان ارشد و تمام کسانی که می‌خواهند نرم‌افزارهای پیچیده تجاری (Enterprise) طراحی کنند، مناسب است.
-
-🔹 برای تجربه خوانایی بهتر در مرورگر، توصیه می‌کنیم افزونه [فونت ایران](https://chromewebstore.google.com/detail/fontiran/edbchgkbejkdkdkpgenlaciegoidmjoh) را نصب کنید.
-
----
-
-## 🙌 راه‌های مشارکت
-
-ما به حضور شما در این پروژه افتخار می‌کنیم! هرچند متن اصلی متعلق به نویسنده است، اما مشارکت شما می‌تواند در جهت‌های زیر باشد:
-
-- 🎨 **بهبود فرمت‌دهی و خوانایی متن (Markdown)**
-- 💡 **افزودن مثال‌های کد جدید یا دیاگرام‌های شفاف‌تر**
-- 📝 **اصلاح غلط‌های املایی یا نگارشی احتمالی**
-
----
-
-## 🔗 فصل‌های کتاب (با لینک)
+تمامی **۶ بخش اصلی** این راهنمای جامع با ساختار منظم آماده مطالعه است:
 
 <div align="center">
 
-| شماره | نام فصل (انگلیسی) | نام فصل (فارسی) | وضعیت | لینک |
-| :--- | :--- | :--- | :--- | :--- |
-| 01 | DDD Fundamentals | مبانی و مفاهیم اولیه DDD | ✅ | [DDD Fundamentals](Book/01/DDD-Fundamentals.md) |
-| 02 | Strategic Design: Subdomains | طراحی استراتژیک: شناخت دامین | ✅ | [Strategic Design: Subdomains](Book/02/Strategic-Design-Subdomains.md) |
-| 03 | Bounded Contexts & Relationships | کانتکست‌های کران‌دار و روابط | ✅ | [Bounded Contexts & Relationships](Book/03/Bounded-Contexts-and-Relationships.md) |
-| 04 | Domain Discovery & Distillation | کشف و تقطیر دامنه | ✅ | [Domain Discovery & Distillation](Book/04/Domain-Discovery-and-Distillation.md) |
-| 05 | Tactical Design & Architecture | طراحی تاکتیکال و معماری فنی | ✅ | [Tactical Design & Architecture](Book/05/Tactical-Design-Architecture.md) |
-| 06 | Conclusion & Roadmap | جمع‌بندی و مسیر آینده | ✅ | [Conclusion & Roadmap](Book/06/Conclusion-and-Roadmap.md) |
+| شماره | نام سرفصل (انگلیسی) | عنوان فارسی | وضعیت | مطالعه مستقیم |
+| :---: | :--- | :--- | :---: | :---: |
+| **01** | DDD Fundamentals | مبانی و مفاهیم اولیه DDD | ✅ | [مطالعه فصل](Book/01/DDD-Fundamentals.md) |
+| **02** | Strategic Design: Subdomains | طراحی استراتژیک: شناخت ساب‌دامین‌ها | ✅ | [مطالعه فصل](Book/02/Strategic-Design-Subdomains.md) |
+| **03** | Bounded Contexts & Relationships | کانتکست‌های کران‌دار و روابط بین آن‌ها | ✅ | [مطالعه فصل](Book/03/Bounded-Contexts-and-Relationships.md) |
+| **04** | Domain Discovery & Distillation | کشف دامنه و سند چشم‌انداز | ✅ | [مطالعه فصل](Book/04/Domain-Discovery-and-Distillation.md) |
+| **05** | Tactical Design & Architecture | طراحی تاکتیکال و معماری فنی | ✅ | [مطالعه فصل](Book/05/Tactical-Design-Architecture.md) |
+| **06** | Conclusion & Roadmap | جمع‌بندی و مسیر پیش‌رو | ✅ | [مطالعه فصل](Book/06/Conclusion-and-Roadmap.md) |
 
 </div>
 
 ---
 
-## 🧩 اصول ساختاری پروژه
+## 🤝 مشارکت در پروژه (Contributions Welcome)
 
-- تمامی محتوا دقیقاً منطبق بر فایل PDF اصلی است و صرفاً به فرمت `.md` تبدیل شده است.
-- کدها داخل بلوک‌های مناسب (`csharp`, `text`) قرار گرفته‌اند تا خوانایی بالاتری داشته باشند.
-- ساختار پوشه‌بندی به گونه‌ای است که مطالعه فصل‌به‌فصل را آسان می‌کند.
+این یک پروژه اجتماعی متعلق به تمام توسعه‌دهندگان و علاقه‌مندان است. هر تصحیح نگارشی، بهبود در واژه‌گزینی‌های تخصصی یا بهینه‌سازی ساختار متن، ارزش این منبع را دوچندان می‌کند:
 
----
+1. **فورک کنید (Fork):** ریپازیتوری را فورک کرده و یک برنچ جدید بسازید (`git checkout -b feature/edit-chapter-01`).
+2. **اصلاح و بازبینی:** متن یا بخش‌های مورد نظر را اصلاح کنید.
+3. **کامیت و ارسال:** تغییرات را ثبت کرده و یک Pull Request تمیز ارسال فرمایید.
 
-## 🛡️ مجوز و حقوق نشر
-
-<ul dir="rtl">
-<li><b>حقوق معنوی محتوا:</b> تمام حقوق مادی و معنوی محتوای این اثر متعلق به نویسنده آن، <b>مهدی کاظمی</b> می‌باشد. این ریپازیتوری صرفاً جهت آرشیو و سهولت دسترسی ایجاد شده است.</li>
-<li><b>انتشار:</b> استفاده از مطالب این مخزن با ذکر منبع و نام نویسنده بلامانع است.</li>
-</ul>
+> اگر سوال، ابهام یا پیشنهادی درباره مطالب یا ترجمه دارید، خوشحال می‌شویم آن را از طریق بخش **[Issues](https://github.com/hheydarian/Understanding-Domain-Driven-Design/issues)** مطرح کنید.
 
 ---
 
-## 🌟 قدردانی
+## ⚖️ مجوز و حقوق مالکیت معنوی
 
-از **مهدی کاظمی** بابت نگارش این مقاله ارزشمند و تمام کسانی که در مسیر یادگیری و اشتراک دانش مشارکت می‌کنند، سپاسگزاریم. 🌱
+* **حقوق معنوی محتوا:** تمامی حقوق مادی و معنوی محتوای این اثر متعلق به نویسنده آن، **مهدی کاظمی** است و این مخزن جهت آرشیو ساختاریافته و سهولت دسترسی جامعه برنامه‌نویسان ایجاد شده است.
+* **بازنشر:** استفاده از مطالب با ذکر منبع و نام نویسنده و مطابق شرایط فایل [LICENSE](LICENSE) انجام می‌شود.
 
-<p align="center">ساخته شده با ❤️ برای جامعه‌ی برنامه‌نویسان فارسی‌زبان</p>
+---
+
+<p align="center">
+  ⭐ <strong>اگر این مجموعه و ریپازیتوری برای یادگیری معماری نرم‌افزار برایتان مفید بوده، با دادن یک ستاره (Star) از آن حمایت کنید!</strong> ⭐
+</p>
+
+<p align="center">
+  ساخته شده با ❤️ و عشق به توسعه‌دهندگان فارسی‌زبان
+</p>
+
+</div>
